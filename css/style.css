@@ -82,22 +82,22 @@ body{
   color: #128aa7;
 }
 #india{
-  background: url(/img/i_fl.png) no-repeat top center;
+  background: url(../img/i_fl.png) no-repeat top center;
 }
 #nepal{
-  background: url(/img/n_fl.png) no-repeat top center;
+  background: url(../img/n_fl.png) no-repeat top center;
 }
 #tibet{
-  background: url(/img/t_fl.png) no-repeat top center;
+  background: url(../img/t_fl.png) no-repeat top center;
 }
 #butan{
-  background: url(/img/b_fl.png) no-repeat top center;
+  background: url(../img/b_fl.png) no-repeat top center;
 }
 #shri{
-  background: url(/img/s_fl.png) no-repeat top center;
+  background: url(../img/s_fl.png) no-repeat top center;
 }
 #maldiv{
-  background: url(/img/m_fl.png) no-repeat top center;
+  background: url(../img/m_fl.png) no-repeat top center;
 }
 
 .bg-img img{
@@ -179,14 +179,18 @@ body{
   margin-bottom: 10px;
 }
 .left-col h3, .right-col h3{
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
 }
 .left-col p, .right-col p{
-  padding: 5px 15px;
-  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
 }
 .centr-col{
   background-color: #fff;
